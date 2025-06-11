@@ -103,7 +103,7 @@
     --sl-color-gray-5: oklch(88% 0.009 var(--sl-hue-base));
     --sl-color-gray-6: oklch(90% 0.004 var(--sl-hue-base));
     --sl-color-gray-7: oklch(96% 0.003 var(--sl-hue-base));
-    --sl-color-black: oklch(98% 0.002 var(--sl-hue-base));
+    --sl-color-black: #ffffff;
 
     --sl-color-orange-low: oklch(96% 0.02 var(--sl-hue-orange));
     --sl-color-orange: oklch(74% 0.15 var(--sl-hue-orange));
