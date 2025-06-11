@@ -1,15 +1,16 @@
 ---
+import "reveal.js/dist/reveal.css";
+import "reveal.js/plugin/highlight/monokai.css";
 ---
 
-<div class="reveal">
-    <div class="slides"><slot /></div>
+<div class="slides-container">
+  <div class="reveal">
+      <div class="slides"><slot /></div>
+  </div>
 </div>
 
 <style>
-  @import "reveal.js/dist/reveal.css";
-  @import "reveal.js/plugin/highlight/monokai.css";
-
-  .reveal {
+  .slides-container .reveal {
     height: calc(var(--sl-content-width) / 4 * 3);
   }
 </style>
