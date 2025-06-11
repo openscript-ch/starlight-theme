@@ -11,6 +11,7 @@ export default function starlightThemeOpenscriptPlugin(): StarlightPlugin {
           !config.expressiveCode || config.expressiveCode === true ? {} : config.expressiveCode
 
         updateConfig({
+          logo: {},
           components: overrideComponents(config, ['LanguageSelect', 'Pagination', 'ThemeSelect'], logger),
           customCss: [
             ...(config.customCss ?? []),

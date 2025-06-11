@@ -21,10 +21,10 @@ hero:
     html: '🎇'
   actions:
     - text: Get started
-      link: /getting-started/
+      link: ./getting-started/
       icon: rocket
     - text: Examples
-      link: /examples/kitchen-sink/
+      link: ./examples/kitchen-sink/
       icon: right-arrow
       variant: minimal
 ---
@@ -35,17 +35,17 @@ import { Card, CardGrid } from '@astrojs/starlight/components'
 
 <CardGrid stagger>
   <Card title="Install the theme" icon="puzzle">
-    Check the [getting started guide](/getting-started/) for installation
+    Check the [getting started guide](./getting-started/) for installation
     instructions.
   </Card>
   <Card title="Configure the theme" icon="rocket">
     Edit your config in the `astro.config.mjs` file.
   </Card>
   <Card title="Preview the theme" icon="seti:image">
-    Check out the [example pages](/examples/kitchen-sink/) to see the theme in
+    Check out the [example pages](./examples/kitchen-sink/) to see the theme in
     action.
   </Card>
   <Card title="Read the docs" icon="open-book">
-    Learn more in the [Starlight Openscript Docs](/getting-started/).
+    Learn more in the [Starlight Openscript Docs](./getting-started/).
   </Card>
 </CardGrid>
