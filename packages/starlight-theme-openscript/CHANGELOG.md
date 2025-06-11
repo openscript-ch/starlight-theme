@@ -1,5 +1,11 @@
 # starlight-theme-openscript
 
+## 0.1.7
+
+### Patch Changes
+
+- [`bd6f617`](https://github.com/openscript-ch/starlight-theme/commit/bd6f6176b4753b4d84669989d73c8d4f16a74077) Thanks [@openscript](https://github.com/openscript)! - Fix background color
+
 ## 0.1.6
 
 ### Patch Changes
