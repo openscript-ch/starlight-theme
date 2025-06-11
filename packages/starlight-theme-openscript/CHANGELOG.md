@@ -1,5 +1,11 @@
 # starlight-theme-openscript
 
+## 0.1.9
+
+### Patch Changes
+
+- [`b5ac191`](https://github.com/openscript-ch/starlight-theme/commit/b5ac191f53209335b2767f6599a0d2b9ec8cdb2d) Thanks [@openscript](https://github.com/openscript)! - Fix slides component
+
 ## 0.1.8
 
 ### Patch Changes
