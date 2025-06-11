@@ -1,8 +1,8 @@
 {
-  "name": "starlight-theme-sparkium-monorepo",
+  "name": "starlight-theme-openscript-monorepo",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
+  "description": "Starlight theme of openscript Ltd.",
   "author": "openscript GmbH",
   "type": "module",
   "scripts": {
@@ -37,16 +37,16 @@
   "keywords": [
     "starlight",
     "theme",
-    "sparkium",
+    "openscript",
     "vitesse",
     "plugin",
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/sparkium/starlight-theme",
+  "homepage": "https://github.com/openscript-ch/starlight-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparkium/starlight-theme.git"
+    "url": "https://github.com/openscript-ch/starlight-theme.git"
   },
-  "bugs": "https://github.com/sparkium/starlight-theme/issues"
+  "bugs": "https://github.com/openscript-ch/starlight-theme/issues"
 }

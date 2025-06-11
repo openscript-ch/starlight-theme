@@ -9,15 +9,15 @@ export function overrideComponents(
   const components = { ...starlightConfig.components }
   for (const override of overrides) {
     if (starlightConfig.components?.[override]) {
-      const fallback = `starlight-theme-sparkium/overrides/${override}.astro`
+      const fallback = `starlight-theme-openscript/overrides/${override}.astro`
 
       logger.warn(`A \`<${override}>\` component override is already defined in your Starlight configuration.`)
       logger.warn(
-        `To use \`starlight-theme-sparkium\`, either remove this override or manually render the content from \`${fallback}\`.`,
+        `To use \`starlight-theme-openscript\`, either remove this override or manually render the content from \`${fallback}\`.`,
       )
       continue
     }
-    components[override] = `starlight-theme-sparkium/overrides/${override}.astro`
+    components[override] = `starlight-theme-openscript/overrides/${override}.astro`
   }
 
   return components

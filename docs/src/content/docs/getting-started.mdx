@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Learn how to use the Starlight Sparkium theme in your documentation.
+description: Learn how to use the Starlight Openscript theme in your documentation.
 ---
 
 A [Starlight](https://starlight.astro.build) theme inspired by the Visual Studio Code [Vitesse theme](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse).
@@ -18,9 +18,9 @@ import { PackageManagers } from '@hideoo/starlight-plugins-docs-components'
 
 <Steps>
 
-1. The Starlight Sparkium theme is a Starlight [plugin](https://starlight.astro.build/reference/plugins/) that you can install using your favorite package manager:
+1. The Starlight Openscript theme is a Starlight [plugin](https://starlight.astro.build/reference/plugins/) that you can install using your favorite package manager:
 
-   <PackageManagers pkg="starlight-theme-sparkium" />
+   <PackageManagers pkg="starlight-theme-openscript" />
 
 2. Configure the plugin in your Starlight [configuration](https://starlight.astro.build/reference/configuration/#plugins) in the `astro.config.mjs` file.
 
@@ -28,12 +28,12 @@ import { PackageManagers } from '@hideoo/starlight-plugins-docs-components'
    // astro.config.mjs
    import starlight from '@astrojs/starlight'
    import { defineConfig } from 'astro/config'
-   +import starlightThemeSparkium from 'starlight-theme-sparkium'
+   +import starlightThemeOpenscript from 'starlight-theme-openscript'
 
    export default defineConfig({
      integrations: [
        starlight({
-   +      plugins: [starlightThemeSparkium()],
+   +      plugins: [starlightThemeOpenscript()],
          title: 'My Docs',
        }),
      ],
@@ -44,4 +44,4 @@ import { PackageManagers } from '@hideoo/starlight-plugins-docs-components'
 
 </Steps>
 
-That's it! You should now see the Starlight Sparkium theme applied to your Starlight website.
+That's it! You should now see the Starlight Openscript theme applied to your Starlight website.

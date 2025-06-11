@@ -1,8 +1,8 @@
 {
-  "name": "starlight-theme-sparkium",
+  "name": "starlight-theme-openscript",
   "version": "0.1.5",
   "license": "MIT",
-  "description": "Starlight theme for documenting courses and lessons.",
+  "description": "Starlight theme of openscript Ltd.",
   "author": "openscript GmbH",
   "type": "module",
   "exports": {
@@ -39,16 +39,16 @@
   "keywords": [
     "starlight",
     "theme",
-    "sparkium",
+    "openscript",
     "plugin",
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/sparkium/starlight-theme",
+  "homepage": "https://github.com/openscript-ch/starlight-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparkium/starlight-theme.git",
-    "directory": "packages/starlight-theme-sparkium"
+    "url": "https://github.com/openscript-ch/starlight-theme.git",
+    "directory": "packages/starlight-theme-openscript"
   },
-  "bugs": "https://github.com/sparkium/starlight-theme/issues"
+  "bugs": "https://github.com/openscript-ch/starlight-theme/issues"
 }

@@ -1,14 +1,14 @@
 import starlight from '@astrojs/starlight'
 import { defineConfig } from 'astro/config'
-import starlightThemeSparkium from 'starlight-theme-sparkium'
+import starlightThemeOpenscript from 'starlight-theme-openscript'
 
 export default defineConfig({
   integrations: [
     starlight({
       editLink: {
-        baseUrl: 'https://github.com/sparkium/starlight-theme/edit/main/docs/',
+        baseUrl: 'https://github.com/openscript-ch/starlight-theme/edit/main/docs/',
       },
-      plugins: [starlightThemeSparkium()],
+      plugins: [starlightThemeOpenscript()],
       sidebar: [
         {
           label: 'Start Here',
@@ -24,10 +24,10 @@ export default defineConfig({
         },
       ],
       social: [
-        { href: 'https://github.com/sparkium/starlight-theme', icon: 'github', label: 'GitHub' },
+        { href: 'https://github.com/openscript-ch/starlight-theme', icon: 'github', label: 'GitHub' },
       ],
-      title: 'Starlight Sparkium',
+      title: 'Starlight Openscript',
     }),
   ],
-  site: 'https://starlight-theme-sparkium.vercel.app',
+  site: 'https://starlight-theme-openscript.vercel.app',
 })

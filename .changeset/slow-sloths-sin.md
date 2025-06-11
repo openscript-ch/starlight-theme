@@ -1,5 +1,5 @@
 ---
-'starlight-theme-sparkium': patch
+'starlight-theme-openscript': patch
 ---
 
 Add reveal js

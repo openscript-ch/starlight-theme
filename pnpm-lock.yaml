@@ -59,11 +59,11 @@ importers:
       sharp:
         specifier: ^0.34.2
         version: 0.34.2
-      starlight-theme-sparkium:
+      starlight-theme-openscript:
         specifier: workspace:*
-        version: link:../packages/starlight-theme-sparkium
+        version: link:../packages/starlight-theme-openscript
 
-  packages/starlight-theme-sparkium:
+  packages/starlight-theme-openscript:
     dependencies:
       '@astrojs/starlight':
         specifier: '>=0.34.0'

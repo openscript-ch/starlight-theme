@@ -1,26 +1,26 @@
 ---
 title: Customization
-description: Learn how to customize your Starlight site and the Starlight Sparkium theme with custom CSS.
+description: Learn how to customize your Starlight site and the Starlight Openscript theme with custom CSS.
 ---
 
 ## Custom CSS
 
-To customize the styles applied to your Starlight site when using the Starlight Sparkium theme, you can provide additional CSS files to modify or extend the Starlight and Starlight Sparkium theme default styles.
+To customize the styles applied to your Starlight site when using the Starlight Openscript theme, you can provide additional CSS files to modify or extend the Starlight and Starlight Openscript theme default styles.
 
 [Learn more about custom CSS in the Starlight documentation.](https://starlight.astro.build/guides/css-and-tailwind/#custom-css-styles)
 
 ## Cascade layers
 
-Like Starlight, the Starlight Sparkium theme uses [cascade layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers) internally to manage the order of its styles.
+Like Starlight, the Starlight Openscript theme uses [cascade layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers) internally to manage the order of its styles.
 This ensures a predictable CSS order and allows for simpler overrides.
-Any custom unlayered CSS will override the default styles from Starlight and the Starlight Sparkium theme.
+Any custom unlayered CSS will override the default styles from Starlight and the Starlight Openscript theme.
 
-If you are using cascade layers, you can use [`@layer`](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) in your [custom CSS](https://starlight.astro.build/guides/css-and-tailwind/#custom-css-styles) to define the order of precedence for different layers relative to styles from the `starlight` and `sparkium` layers:
+If you are using cascade layers, you can use [`@layer`](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) in your [custom CSS](https://starlight.astro.build/guides/css-and-tailwind/#custom-css-styles) to define the order of precedence for different layers relative to styles from the `starlight` and `openscript` layers:
 
-```css "starlight" "sparkium"
+```css "starlight" "openscript"
 /* src/styles/custom.css */
-@layer my-reset, starlight, sparkium, my-overrides;
+@layer my-reset, starlight, openscript, my-overrides;
 ```
 
-The example above defines a custom layer named `my-reset`, applied before all the Starlight and Starlight Sparkium theme layers, and another named `my-overrides`, applied after all Starlight and Starlight Sparkium theme layers.
-Any styles in the `my-overrides` layer would take precedence over the Starlight and Starlight Sparkium theme styles, but Starlight or the Starlight Sparkium theme could still change styles set in the `my-reset` layer.
+The example above defines a custom layer named `my-reset`, applied before all the Starlight and Starlight Openscript theme layers, and another named `my-overrides`, applied after all Starlight and Starlight Openscript theme layers.
+Any styles in the `my-overrides` layer would take precedence over the Starlight and Starlight Openscript theme styles, but Starlight or the Starlight Openscript theme could still change styles set in the `my-reset` layer.

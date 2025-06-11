@@ -1,5 +1,5 @@
 {
-  "name": "starlight-theme",
+  "name": "starlight-theme-openscript",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
   "customizations": {
     "vscode": {

@@ -1,4 +1,4 @@
-# starlight-theme-sparkium
+# starlight-theme-openscript
 
 A theme for documenting classes and courses. This is a fork of the [Starlight Theme Rapide](https://github.com/HiDeoo/starlight-theme-rapide).
 
@@ -13,7 +13,7 @@ A theme for documenting classes and courses. This is a fork of the [Starlight Th
 1. Add the theme to your project:
 
    ```bash
-   pnpm add starlight-theme-sparkium
+   pnpm add starlight-theme-openscript
    ```
 
 1. Update your `starlight.config.mjs` to use the theme:
@@ -21,12 +21,12 @@ A theme for documenting classes and courses. This is a fork of the [Starlight Th
    ```javascript
    import starlight from '@astrojs/starlight'
    import { defineConfig } from 'astro/config'
-   import starlightThemeSparkium from 'starlight-theme-sparkium'
+   import starlightThemeOpenscript from 'starlight-theme-openscript'
 
    export default defineConfig({
      integrations: [
        starlight({
-         plugins: [starlightThemeSparkium()],
+         plugins: [starlightThemeOpenscript()],
          title: 'My Course',
        }),
      ],

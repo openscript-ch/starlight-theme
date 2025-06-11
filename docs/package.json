@@ -1,5 +1,5 @@
 {
-  "name": "starlight-theme-sparkium-docs",
+  "name": "starlight-theme-openscript-docs",
   "version": "0.0.0",
   "license": "MIT",
   "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
@@ -16,7 +16,7 @@
     "@hideoo/starlight-plugins-docs-components": "^0.4.0",
     "astro": "^5.9.2",
     "sharp": "^0.34.2",
-    "starlight-theme-sparkium": "workspace:*"
+    "starlight-theme-openscript": "workspace:*"
   },
   "engines": {
     "node": ">=18"
@@ -27,17 +27,17 @@
   "keywords": [
     "starlight",
     "theme",
-    "sparkium",
+    "openscript",
     "vitesse",
     "plugin",
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/HiDeoo/starlight-theme-sparkium",
+  "homepage": "https://github.com/HiDeoo/starlight-theme-openscript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeoo/starlight-theme-sparkium.git",
+    "url": "https://github.com/HiDeoo/starlight-theme-openscript.git",
     "directory": "docs"
   },
-  "bugs": "https://github.com/HiDeoo/starlight-theme-sparkium/issues"
+  "bugs": "https://github.com/HiDeoo/starlight-theme-openscript/issues"
 }

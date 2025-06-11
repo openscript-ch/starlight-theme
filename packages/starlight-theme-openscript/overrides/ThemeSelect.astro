@@ -7,7 +7,7 @@ const id = `moon-mask-${crypto.randomBytes(4).toString('hex')}`
 // https://github.com/withastro/starlight/blob/9237581c766f68fbb3ce5f9401ca2046f106c7d5/packages/starlight/components/ThemeSelect.astro
 ---
 
-<starlight-sparkium-theme-select>
+<starlight-openscript-theme-select>
   <button
     aria-label={Astro.locals.t('themeSelect.accessibleLabel')}
     aria-live="polite"
@@ -32,13 +32,13 @@ const id = `moon-mask-${crypto.randomBytes(4).toString('hex')}`
       </g>
     </svg>
   </button>
-</starlight-sparkium-theme-select>
+</starlight-openscript-theme-select>
 
 <style>
-  @layer sparkium {
-    starlight-sparkium-theme-select {
-      --sl-sparkium-theme-select-animation-duration: 400ms;
-      --sl-sparkium-theme-select-ease-elastic: cubic-bezier(0.5, 1.25, 0.75, 1.25);
+  @layer openscript {
+    starlight-openscript-theme-select {
+      --sl-openscript-theme-select-animation-duration: 400ms;
+      --sl-openscript-theme-select-ease-elastic: cubic-bezier(0.5, 1.25, 0.75, 1.25);
 
       align-self: stretch;
     }
@@ -99,40 +99,40 @@ const id = `moon-mask-${crypto.randomBytes(4).toString('hex')}`
 
     @media (prefers-reduced-motion: no-preference) {
       svg .sun {
-        transition: transform var(--sl-sparkium-theme-select-animation-duration)
-          var(--sl-sparkium-theme-select-ease-elastic);
+        transition: transform var(--sl-openscript-theme-select-animation-duration)
+          var(--sl-openscript-theme-select-ease-elastic);
       }
 
       svg .sun-beams {
         transition:
-          opacity var(--sl-sparkium-theme-select-animation-duration) ease,
-          transform var(--sl-sparkium-theme-select-animation-duration) var(--sl-sparkium-theme-select-ease-elastic);
+          opacity var(--sl-openscript-theme-select-animation-duration) ease,
+          transform var(--sl-openscript-theme-select-animation-duration) var(--sl-openscript-theme-select-ease-elastic);
       }
 
       svg .moon circle {
-        transition: transform calc(var(--sl-sparkium-theme-select-animation-duration) / 2) ease-out;
+        transition: transform calc(var(--sl-openscript-theme-select-animation-duration) / 2) ease-out;
       }
 
       @supports (cx: 1) {
         svg .moon circle {
-          transition: cx calc(var(--sl-sparkium-theme-select-animation-duration) / 2) ease-out;
+          transition: cx calc(var(--sl-openscript-theme-select-animation-duration) / 2) ease-out;
         }
       }
 
       :global([data-theme='dark']) svg .sun {
         transform: scale(1.75);
-        transition-duration: calc(var(--sl-sparkium-theme-select-animation-duration) / 2);
+        transition-duration: calc(var(--sl-openscript-theme-select-animation-duration) / 2);
         transition-timing-function: ease;
       }
 
       :global([data-theme='dark']) svg .sun-beams {
         transform: rotateZ(-25deg);
-        transition-duration: calc(var(--sl-sparkium-theme-select-animation-duration) / 4);
+        transition-duration: calc(var(--sl-openscript-theme-select-animation-duration) / 4);
       }
 
       :global([data-theme='dark']) svg .moon circle {
-        transition-delay: calc(var(--sl-sparkium-theme-select-animation-duration) / 4);
-        transition-duration: var(--sl-sparkium-theme-select-animation-duration);
+        transition-delay: calc(var(--sl-openscript-theme-select-animation-duration) / 4);
+        transition-duration: var(--sl-openscript-theme-select-animation-duration);
       }
     }
   }
@@ -184,8 +184,8 @@ const id = `moon-mask-${crypto.randomBytes(4).toString('hex')}`
   })
 
   customElements.define(
-    'starlight-sparkium-theme-select',
-    class StarlightsparkiumThemeSelect extends HTMLElement {
+    'starlight-openscript-theme-select',
+    class StarlightopenscriptThemeSelect extends HTMLElement {
       constructor() {
         super()
         onThemeChange(loadTheme())

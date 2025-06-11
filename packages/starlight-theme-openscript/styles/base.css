@@ -1,4 +1,4 @@
-@layer sparkium {
+@layer openscript {
 
   body {
     background-color: #FFF;
@@ -10,7 +10,7 @@
   header.header {
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
-    background-color: var(--sl-sparkium-ui-header-bg-color);
+    background-color: var(--sl-openscript-ui-header-bg-color);
     border-bottom: 1px solid var(--sl-color-gray-5);
 
     .site-title {
@@ -45,7 +45,7 @@
 
       select {
         box-sizing: content-box;
-        width: calc(var(--sl-sparkium-lang-select-width));
+        width: calc(var(--sl-openscript-lang-select-width));
       }
     }
 
@@ -96,7 +96,7 @@
       }
 
       .pagefind-ui__search-input {
-        background-color: var(--sl-sparkium-ui-bg-color);
+        background-color: var(--sl-openscript-ui-bg-color);
         border: 1px solid var(--sl-color-gray-4);
 
         &:focus-visible {
@@ -114,11 +114,11 @@
       }
 
       :is(.pagefind-ui__result-title:not(:where(.pagefind-ui__result-nested *)), .pagefind-ui__result-nested) {
-        border-inline: 1px solid var(--sl-sparkium-ui-border-color);
+        border-inline: 1px solid var(--sl-openscript-ui-border-color);
         outline-offset: -1px;
 
         &:not(:focus-within) {
-          background-color: var(--sl-sparkium-ui-bg-color);
+          background-color: var(--sl-openscript-ui-bg-color);
         }
       }
 
@@ -126,11 +126,11 @@
         gap: 0;
 
         & > :first-child {
-          border-top: 1px solid var(--sl-sparkium-ui-border-color);
+          border-top: 1px solid var(--sl-openscript-ui-border-color);
         }
 
         & > :last-child {
-          border-bottom: 1px solid var(--sl-sparkium-ui-border-color);
+          border-bottom: 1px solid var(--sl-openscript-ui-border-color);
         }
       }
 
@@ -140,11 +140,11 @@
 
       @media (prefers-reduced-motion: no-preference) {
         &::backdrop {
-          animation: sl-sparkium-search-backdrop-fade 150ms ease-out;
+          animation: sl-openscript-search-backdrop-fade 150ms ease-out;
         }
 
         & {
-          animation: sl-sparkium-search-dialog-zoom-in 150ms ease-out;
+          animation: sl-openscript-search-dialog-zoom-in 150ms ease-out;
         }
       }
     }
@@ -166,7 +166,7 @@
     }
   }
 
-  @keyframes sl-sparkium-search-backdrop-fade {
+  @keyframes sl-openscript-search-backdrop-fade {
     from {
       -webkit-backdrop-filter: initial;
       backdrop-filter: initial;
@@ -180,7 +180,7 @@
     }
   }
 
-  @keyframes sl-sparkium-search-dialog-zoom-in {
+  @keyframes sl-openscript-search-dialog-zoom-in {
     from {
       opacity: 0;
       transform: scale(0.5) translateY(-2rem);
@@ -331,7 +331,7 @@
     nav {
       -webkit-backdrop-filter: blur(0.5rem);
       backdrop-filter: blur(0.5rem);
-      background-color: var(--sl-sparkium-ui-header-bg-color);
+      background-color: var(--sl-openscript-ui-header-bg-color);
       border-bottom: 1px solid var(--sl-color-gray-5);
       border-top-color: transparent;
 
@@ -357,7 +357,7 @@
       border-bottom: var(--border-top) solid var(--sl-color-gray-6);
 
       a:is(:hover, :focus-visible) {
-        background-color: var(--sl-sparkium-ui-bg-color);
+        background-color: var(--sl-openscript-ui-bg-color);
         color: var(--sl-color-accent-high);
       }
     }
@@ -408,7 +408,7 @@
       }
 
       .frame.is-terminal .header {
-        border-bottom: 1px solid var(--sl-sparkium-ui-border-color);
+        border-bottom: 1px solid var(--sl-openscript-ui-border-color);
       }
     }
   }
@@ -486,35 +486,35 @@
    */
   .starlight-aside {
     &.starlight-aside--note {
-      --sl-sparkium-asides-bg-color: var(--sl-color-blue-low);
-      --sl-sparkium-asides-link-color: var(--sl-color-blue-accent);
-      --sl-sparkium-asides-link-hover-color: var(--sl-color-blue-accent-invert);
-      --sl-sparkium-asides-table-alt-color: var(--sl-color-blue-alt);
-      --sl-sparkium-asides-table-border-color: var(--sl-color-blue-alt-invert);
+      --sl-openscript-asides-bg-color: var(--sl-color-blue-low);
+      --sl-openscript-asides-link-color: var(--sl-color-blue-accent);
+      --sl-openscript-asides-link-hover-color: var(--sl-color-blue-accent-invert);
+      --sl-openscript-asides-table-alt-color: var(--sl-color-blue-alt);
+      --sl-openscript-asides-table-border-color: var(--sl-color-blue-alt-invert);
     }
 
     &.starlight-aside--tip {
-      --sl-sparkium-asides-bg-color: var(--sl-color-purple-low);
-      --sl-sparkium-asides-link-color: var(--sl-color-purple-accent);
-      --sl-sparkium-asides-link-hover-color: var(--sl-color-purple-accent-invert);
-      --sl-sparkium-asides-table-alt-color: var(--sl-color-purple-alt);
-      --sl-sparkium-asides-table-border-color: var(--sl-color-purple-alt-invert);
+      --sl-openscript-asides-bg-color: var(--sl-color-purple-low);
+      --sl-openscript-asides-link-color: var(--sl-color-purple-accent);
+      --sl-openscript-asides-link-hover-color: var(--sl-color-purple-accent-invert);
+      --sl-openscript-asides-table-alt-color: var(--sl-color-purple-alt);
+      --sl-openscript-asides-table-border-color: var(--sl-color-purple-alt-invert);
     }
 
     &.starlight-aside--caution {
-      --sl-sparkium-asides-bg-color: var(--sl-color-orange-low);
-      --sl-sparkium-asides-link-color: var(--sl-color-orange-accent);
-      --sl-sparkium-asides-link-hover-color: var(--sl-color-orange-accent-invert);
-      --sl-sparkium-asides-table-alt-color: var(--sl-color-orange-alt);
-      --sl-sparkium-asides-table-border-color: var(--sl-color-orange-alt-invert);
+      --sl-openscript-asides-bg-color: var(--sl-color-orange-low);
+      --sl-openscript-asides-link-color: var(--sl-color-orange-accent);
+      --sl-openscript-asides-link-hover-color: var(--sl-color-orange-accent-invert);
+      --sl-openscript-asides-table-alt-color: var(--sl-color-orange-alt);
+      --sl-openscript-asides-table-border-color: var(--sl-color-orange-alt-invert);
     }
 
     &.starlight-aside--danger {
-      --sl-sparkium-asides-bg-color: var(--sl-color-red-low);
-      --sl-sparkium-asides-link-color: var(--sl-color-red-accent);
-      --sl-sparkium-asides-link-hover-color: var(--sl-color-red-accent-invert);
-      --sl-sparkium-asides-table-alt-color: var(--sl-color-red-alt);
-      --sl-sparkium-asides-table-border-color: var(--sl-color-red-alt-invert);
+      --sl-openscript-asides-bg-color: var(--sl-color-red-low);
+      --sl-openscript-asides-link-color: var(--sl-color-red-accent);
+      --sl-openscript-asides-link-hover-color: var(--sl-color-red-accent-invert);
+      --sl-openscript-asides-table-alt-color: var(--sl-color-red-alt);
+      --sl-openscript-asides-table-border-color: var(--sl-color-red-alt-invert);
     }
 
     border: 1px solid var(--sl-color-asides-border);
@@ -522,19 +522,19 @@
     color: var(--sl-color-asides-text-accent);
 
     a {
-      color: var(--sl-sparkium-asides-link-color);
+      color: var(--sl-openscript-asides-link-color);
     }
 
     a:is(:hover, :focus-visible) {
-      color: var(--sl-sparkium-asides-link-hover-color);
+      color: var(--sl-openscript-asides-link-hover-color);
     }
 
     tr:nth-child(2n) {
-      background-color: var(--sl-sparkium-asides-table-alt-color);
+      background-color: var(--sl-openscript-asides-table-alt-color);
     }
 
     td {
-      border-color: var(--sl-sparkium-asides-table-border-color);
+      border-color: var(--sl-openscript-asides-table-border-color);
     }
   }
 
@@ -542,8 +542,8 @@
    * File tree
    */
   starlight-file-tree {
-    background-color: var(--sl-sparkium-ui-bg-color);
-    border: 1px solid var(--sl-sparkium-ui-border-color);
+    background-color: var(--sl-openscript-ui-bg-color);
+    border: 1px solid var(--sl-openscript-ui-border-color);
     border-radius: 0.5rem;
 
     .directory > details > summary:hover ~ ul {
