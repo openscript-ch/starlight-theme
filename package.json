@@ -21,9 +21,9 @@
     "@hideoo/eslint-config": "^4.0.0",
     "@hideoo/prettier-config": "^2.0.0",
     "@hideoo/tsconfig": "^2.0.1",
-    "@types/node": "^24.0.0",
-    "astro": "^5.9.2",
-    "eslint": "^9.28.0",
+    "@types/node": "^24.0.3",
+    "astro": "^5.9.4",
+    "eslint": "^9.29.0",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
     "typescript": "^5.8.3"
