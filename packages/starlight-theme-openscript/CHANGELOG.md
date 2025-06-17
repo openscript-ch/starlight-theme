@@ -1,5 +1,11 @@
 # starlight-theme-openscript
 
+## 0.1.11
+
+### Patch Changes
+
+- [`3baad5d`](https://github.com/openscript-ch/starlight-theme/commit/3baad5d6ab86afe16eeae2d5cc8dd5e2500f9e54) Thanks [@openscript](https://github.com/openscript)! - Rename package
+
 ## 0.1.10
 
 ### Patch Changes
