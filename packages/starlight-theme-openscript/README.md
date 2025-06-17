@@ -13,20 +13,20 @@ A theme for documenting classes and courses. This is a fork of the [Starlight Th
 1. Add the theme to your project:
 
    ```bash
-   pnpm add starlight-theme-openscript
+   pnpm add @openscript-ch/starlight-theme
    ```
 
 1. Update your `starlight.config.mjs` to use the theme:
 
    ```javascript
    import starlight from '@astrojs/starlight'
+   import openscriptTheme from '@openscript-ch/starlight-theme'
    import { defineConfig } from 'astro/config'
-   import starlightThemeOpenscript from 'starlight-theme-openscript'
 
    export default defineConfig({
      integrations: [
        starlight({
-         plugins: [starlightThemeOpenscript()],
+         plugins: [openscriptTheme()],
          title: 'My Course',
        }),
      ],

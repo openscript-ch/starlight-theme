@@ -1,6 +1,6 @@
 import starlight from '@astrojs/starlight'
+import openscriptTheme from '@openscript-ch/starlight-theme'
 import { defineConfig } from 'astro/config'
-import starlightThemeOpenscript from 'starlight-theme-openscript'
 
 export default defineConfig({
   integrations: [
@@ -8,7 +8,7 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/openscript-ch/starlight-theme/edit/main/docs/',
       },
-      plugins: [starlightThemeOpenscript()],
+      plugins: [openscriptTheme()],
       sidebar: [
         {
           label: 'Start Here',
