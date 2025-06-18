@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>starlight-theme-openscript ⚡</h1>
+  <h1>@openscript-ch/starlight-theme ⚡</h1>
   <p>Starlight theme inspired by the Visual Studio Code Vitesse theme.</p>
 </div>
 

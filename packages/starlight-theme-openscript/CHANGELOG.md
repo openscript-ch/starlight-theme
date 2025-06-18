@@ -1,4 +1,4 @@
-# starlight-theme-openscript
+# @openscript-ch/starlight-theme
 
 ## 0.1.11
 

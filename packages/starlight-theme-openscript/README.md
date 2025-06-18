@@ -1,4 +1,4 @@
-# starlight-theme-openscript
+# @openscript-ch/starlight-theme
 
 A theme for documenting classes and courses. This is a fork of the [Starlight Theme Rapide](https://github.com/HiDeoo/starlight-theme-rapide).
 

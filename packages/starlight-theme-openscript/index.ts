@@ -4,7 +4,7 @@ import { overrideComponents } from './libs/starlight'
 
 export default function starlightThemeOpenscriptPlugin(): StarlightPlugin {
   return {
-    name: 'starlight-theme-openscript',
+    name: '@openscript-ch/starlight-theme',
     hooks: {
       'config:setup'({ config, logger, updateConfig }) {
         const userExpressiveCodeConfig =
@@ -14,10 +14,10 @@ export default function starlightThemeOpenscriptPlugin(): StarlightPlugin {
           components: overrideComponents(config, ['LanguageSelect', 'Pagination', 'ThemeSelect'], logger),
           customCss: [
             ...(config.customCss ?? []),
-            'starlight-theme-openscript/styles/layers',
-            'starlight-theme-openscript/styles/theme',
-            'starlight-theme-openscript/styles/base',
-            ...(config.markdown?.headingLinks === false ? [] : ['starlight-theme-openscript/styles/anchors']),
+            '@openscript-ch/starlight-theme/styles/layers',
+            '@openscript-ch/starlight-theme/styles/theme',
+            '@openscript-ch/starlight-theme/styles/base',
+            ...(config.markdown?.headingLinks === false ? [] : ['@openscript-ch/starlight-theme/styles/anchors']),
           ],
           expressiveCode:
             config.expressiveCode === false

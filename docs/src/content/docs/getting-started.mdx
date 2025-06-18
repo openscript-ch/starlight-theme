@@ -20,7 +20,7 @@ import { PackageManagers } from '@hideoo/starlight-plugins-docs-components'
 
 1. The Starlight Openscript theme is a Starlight [plugin](https://starlight.astro.build/reference/plugins/) that you can install using your favorite package manager:
 
-   <PackageManagers pkg="starlight-theme-openscript" />
+   <PackageManagers pkg="@openscript-ch/starlight-theme" />
 
 2. Configure the plugin in your Starlight [configuration](https://starlight.astro.build/reference/configuration/#plugins) in the `astro.config.mjs` file.
 
@@ -28,7 +28,7 @@ import { PackageManagers } from '@hideoo/starlight-plugins-docs-components'
    // astro.config.mjs
    import starlight from '@astrojs/starlight'
    import { defineConfig } from 'astro/config'
-   +import starlightThemeOpenscript from 'starlight-theme-openscript'
+   +import starlightThemeOpenscript from '@openscript-ch/starlight-theme'
 
    export default defineConfig({
      integrations: [
