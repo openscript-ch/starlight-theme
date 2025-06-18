@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.13
+
+### Patch Changes
+
+- [`4c45af7`](https://github.com/openscript-ch/starlight-theme/commit/4c45af716497551e18d142679b4d8f45d8419802) Thanks [@openscript](https://github.com/openscript)! - Fix overrides
+
 ## 0.1.12
 
 ### Patch Changes
