@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.12
+
+### Patch Changes
+
+- [`e3bd24f`](https://github.com/openscript-ch/starlight-theme/commit/e3bd24faf369c492474ac597ee845ae791b0358d) Thanks [@openscript](https://github.com/openscript)! - Rename CSS imports
+
 ## 0.1.11
 
 ### Patch Changes
