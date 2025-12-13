@@ -24,7 +24,7 @@
     "@astrojs/starlight": ">=0.34.0"
   },
   "dependencies": {
-    "@types/reveal.js": "^5.2.0",
+    "@types/reveal.js": "^5.2.2",
     "reveal.js": "^5.2.1"
   },
   "engines": {
