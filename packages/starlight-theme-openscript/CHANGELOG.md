@@ -1,5 +1,121 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.32
+
+### Patch Changes
+
+- [`0a40837`](https://github.com/openscript-ch/starlight-theme/commit/0a40837a4be5980d2b0c982a84c188836841bacb) Thanks [@openscript](https://github.com/openscript)! - Clean up permissions
+
+## 0.1.31
+
+### Patch Changes
+
+- [`39b31d5`](https://github.com/openscript-ch/starlight-theme/commit/39b31d5c18e8282025be73b260e0dfb044e6ca6c) Thanks [@openscript](https://github.com/openscript)! - Fix packages workflow
+
+## 0.1.30
+
+### Patch Changes
+
+- [`c766417`](https://github.com/openscript-ch/starlight-theme/commit/c7664178c37b25641764dca63cb9b8220315cd7b) Thanks [@openscript](https://github.com/openscript)! - fix packages workflow
+
+## 0.1.29
+
+### Patch Changes
+
+- [`b9efcb5`](https://github.com/openscript-ch/starlight-theme/commit/b9efcb518ec3d3b8872bbedf85e03f38cbbf42ba) Thanks [@openscript](https://github.com/openscript)! - push trigger
+
+## 0.1.28
+
+### Patch Changes
+
+- [`cdca9d1`](https://github.com/openscript-ch/starlight-theme/commit/cdca9d11122162489c95ca4b51523b4bd9e7ad7b) Thanks [@openscript](https://github.com/openscript)! - Try out push trigger
+
+## 0.1.27
+
+### Patch Changes
+
+- [`8cf8496`](https://github.com/openscript-ch/starlight-theme/commit/8cf849631d490cc54851a21bb20a7beafc4a036f) Thanks [@openscript](https://github.com/openscript)! - Change workflow
+
+## 0.1.26
+
+### Patch Changes
+
+- [`e981987`](https://github.com/openscript-ch/starlight-theme/commit/e981987cc86e8c9c367ef4370040a229275f7e44) Thanks [@openscript](https://github.com/openscript)! - Update npm
+
+## 0.1.25
+
+### Patch Changes
+
+- [`40f2c24`](https://github.com/openscript-ch/starlight-theme/commit/40f2c245ebfebd6228beb60d5fedeeb551de0d7d) Thanks [@openscript](https://github.com/openscript)! - Adjust publication
+
+## 0.1.24
+
+### Patch Changes
+
+- [`02bc10a`](https://github.com/openscript-ch/starlight-theme/commit/02bc10ab0a78256a0f9fac6ffc349b9239334777) Thanks [@openscript](https://github.com/openscript)! - Adjust publication
+
+## 0.1.23
+
+### Patch Changes
+
+- [`ba14891`](https://github.com/openscript-ch/starlight-theme/commit/ba14891993fa52239599c956b9fcfaad9fff43a0) Thanks [@openscript](https://github.com/openscript)! - Enhance package.json
+
+## 0.1.22
+
+### Patch Changes
+
+- [`941fdb3`](https://github.com/openscript-ch/starlight-theme/commit/941fdb3b9b30ba4adb386bbab0d091e8ea8fa262) Thanks [@openscript](https://github.com/openscript)! - Enhance permissions
+
+## 0.1.21
+
+### Patch Changes
+
+- [`dcd0cef`](https://github.com/openscript-ch/starlight-theme/commit/dcd0cef581d080a1c2f20ed343582f7757d155d5) Thanks [@openscript](https://github.com/openscript)! - Adjust permissions for publication
+
+## 0.1.20
+
+### Patch Changes
+
+- [`6476e17`](https://github.com/openscript-ch/starlight-theme/commit/6476e173f66e5cac01c7cdd18cf591ca9c67ba2e) Thanks [@openscript](https://github.com/openscript)! - Fix publication
+
+## 0.1.19
+
+### Patch Changes
+
+- [`9d8d7f1`](https://github.com/openscript-ch/starlight-theme/commit/9d8d7f1402004f3d67d9ca96b8eb5fb226266de5) Thanks [@openscript](https://github.com/openscript)! - Set npm environment
+
+## 0.1.18
+
+### Patch Changes
+
+- [`bc3047a`](https://github.com/openscript-ch/starlight-theme/commit/bc3047a66b55a7e35432e4d5312686765dfa97a8) Thanks [@openscript](https://github.com/openscript)! - Enhance workflow permissions
+
+## 0.1.17
+
+### Patch Changes
+
+- [`6f3f295`](https://github.com/openscript-ch/starlight-theme/commit/6f3f295a0a435c8a4a8b872ebda01270a3056a2b) Thanks [@openscript](https://github.com/openscript)! - Fix publication
+
+## 0.1.16
+
+### Patch Changes
+
+- [`792c3d6`](https://github.com/openscript-ch/starlight-theme/commit/792c3d6730bd2df22d5151bbacdd83776c571e99) Thanks [@openscript](https://github.com/openscript)! - Fix publication using provenance
+
+## 0.1.15
+
+### Patch Changes
+
+- [`0093a1b`](https://github.com/openscript-ch/starlight-theme/commit/0093a1b353c7031b3b1b04c23bbc51d9d3a24351) Thanks [@openscript](https://github.com/openscript)! - Adapt new environment protection rules
+
+## 0.1.14
+
+### Patch Changes
+
+- [`4a8b8b4`](https://github.com/openscript-ch/starlight-theme/commit/4a8b8b4f3a54ba054b6f54487ae06cf0d2fab0bc) Thanks [@openscript](https://github.com/openscript)! - Enhance registries workflow for publication
+
+- [`4a8b8b4`](https://github.com/openscript-ch/starlight-theme/commit/4a8b8b4f3a54ba054b6f54487ae06cf0d2fab0bc) Thanks [@openscript](https://github.com/openscript)! - Update dependencies
+
 ## 0.1.13
 
 ### Patch Changes

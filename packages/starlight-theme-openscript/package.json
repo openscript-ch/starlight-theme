@@ -1,6 +1,6 @@
 {
   "name": "@openscript-ch/starlight-theme",
-  "version": "0.1.13",
+  "version": "0.1.32",
   "license": "MIT",
   "description": "Starlight theme of openscript Ltd.",
   "author": "openscript GmbH",
@@ -47,7 +47,7 @@
   "homepage": "https://github.com/openscript-ch/starlight-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openscript-ch/starlight-theme.git",
+    "url": "https://github.com/openscript-ch/starlight-theme",
     "directory": "packages/starlight-theme-openscript"
   },
   "bugs": "https://github.com/openscript-ch/starlight-theme/issues"
