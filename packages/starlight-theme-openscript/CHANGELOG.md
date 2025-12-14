@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.18
+
+### Patch Changes
+
+- [`bc3047a`](https://github.com/openscript-ch/starlight-theme/commit/bc3047a66b55a7e35432e4d5312686765dfa97a8) Thanks [@openscript](https://github.com/openscript)! - Enhance workflow permissions
+
 ## 0.1.17
 
 ### Patch Changes
