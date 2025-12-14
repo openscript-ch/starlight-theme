@@ -13,8 +13,7 @@ permissions:
 
 jobs:
   publish-packages:
-    # Only run when the push is a changeset version commit
-    if: startsWith(github.event.head_commit.message, 'chore: publish new release')
+    if: ${{ startsWith(github.event.head_commit.message, 'chore: publish new release') }}
     name: Publish packages
     runs-on: ubuntu-latest
     steps:
