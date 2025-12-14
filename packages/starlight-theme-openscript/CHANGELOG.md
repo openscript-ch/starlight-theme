@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.19
+
+### Patch Changes
+
+- [`9d8d7f1`](https://github.com/openscript-ch/starlight-theme/commit/9d8d7f1402004f3d67d9ca96b8eb5fb226266de5) Thanks [@openscript](https://github.com/openscript)! - Set npm environment
+
 ## 0.1.18
 
 ### Patch Changes
