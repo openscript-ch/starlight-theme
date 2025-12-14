@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.29
+
+### Patch Changes
+
+- [`b9efcb5`](https://github.com/openscript-ch/starlight-theme/commit/b9efcb518ec3d3b8872bbedf85e03f38cbbf42ba) Thanks [@openscript](https://github.com/openscript)! - push trigger
+
 ## 0.1.28
 
 ### Patch Changes
