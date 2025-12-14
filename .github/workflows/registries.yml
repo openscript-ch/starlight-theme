@@ -9,7 +9,8 @@ on:
 
 permissions:
   id-token: write
-  contents: read
+  contents: write
+  packages: write
 
 jobs:
   build-and-deploy:
@@ -36,6 +37,21 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Publish packages to NPM
-        run: pnpm publish -r --no-git-checks
+        run: pnpm publish -r --access public --no-git-checks --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Configure node for Github registry as registry
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@openscript-ch'
+
+      - name: Authenticate with the GitHub Package Registry
+        run:
+          echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+
+      - name: Publish package on Github NPM registry
+        run: pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
