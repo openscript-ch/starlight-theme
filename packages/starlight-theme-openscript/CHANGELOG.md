@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.15
+
+### Patch Changes
+
+- [`0093a1b`](https://github.com/openscript-ch/starlight-theme/commit/0093a1b353c7031b3b1b04c23bbc51d9d3a24351) Thanks [@openscript](https://github.com/openscript)! - Adapt new environment protection rules
+
 ## 0.1.14
 
 ### Patch Changes
