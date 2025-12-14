@@ -16,6 +16,8 @@ jobs:
   build-and-deploy:
     name: Build and deploy packages
     runs-on: ubuntu-latest
+    environment: npm
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
@@ -37,7 +39,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Publish packages to NPM
-        run: pnpm --filter "@openscript-ch/starlight-theme" publish --access public --no-git-checks --provenance
+        run: pnpm publish -r --access public --no-git-checks --provenance
 
       - name: Configure node for Github registry as registry
         uses: actions/setup-node@v6
