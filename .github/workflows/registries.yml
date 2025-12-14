@@ -7,11 +7,6 @@ on:
         required: true
         type: string
 
-permissions:
-  id-token: write
-  contents: write
-  packages: write
-
 jobs:
   build-and-deploy:
     name: Build and deploy packages
@@ -35,19 +30,16 @@ jobs:
           registry-url: https://registry.npmjs.org
           scope: '@openscript-ch'
 
-      - name: Update npm for trusted publishing
-        run: npm install -g npm@latest
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Publish packages to NPM
-        run: pnpm --filter "@openscript-ch/starlight-theme" publish --access public --no-git-checks
+        run: pnpm publish -r --access public --no-git-checks
 
-      - name: Configure node for Github registry as registry
+      - name: Configure node for Github registry
         uses: actions/setup-node@v6
         with:
-          node-version: "24"
+          node-version: 24
           registry-url: 'https://npm.pkg.github.com'
           scope: '@openscript-ch'
 
@@ -56,6 +48,6 @@ jobs:
           echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
       - name: Publish package on Github NPM registry
-        run: pnpm publish --no-git-checks
+        run: pnpm publish -r --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
