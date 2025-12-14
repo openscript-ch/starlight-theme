@@ -35,11 +35,14 @@ jobs:
           registry-url: https://registry.npmjs.org
           scope: '@openscript-ch'
 
+      - name: Update npm for trusted publishing
+        run: npm install -g npm@latest
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Publish packages to NPM
-        run: pnpm publish -r --access public --no-git-checks --provenance
+        run: pnpm --filter "@openscript-ch/starlight-theme" publish --access public --no-git-checks
 
       - name: Configure node for Github registry as registry
         uses: actions/setup-node@v6
