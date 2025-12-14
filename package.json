@@ -46,7 +46,7 @@
   "homepage": "https://github.com/openscript-ch/starlight-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openscript-ch/starlight-theme.git"
+    "url": "https://github.com/openscript-ch/starlight-theme"
   },
   "bugs": "https://github.com/openscript-ch/starlight-theme/issues"
 }
