@@ -1,5 +1,11 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.16
+
+### Patch Changes
+
+- [`792c3d6`](https://github.com/openscript-ch/starlight-theme/commit/792c3d6730bd2df22d5151bbacdd83776c571e99) Thanks [@openscript](https://github.com/openscript)! - Fix publication using provenance
+
 ## 0.1.15
 
 ### Patch Changes
