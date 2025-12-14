@@ -1,5 +1,13 @@
 # @openscript-ch/starlight-theme
 
+## 0.1.14
+
+### Patch Changes
+
+- [`4a8b8b4`](https://github.com/openscript-ch/starlight-theme/commit/4a8b8b4f3a54ba054b6f54487ae06cf0d2fab0bc) Thanks [@openscript](https://github.com/openscript)! - Enhance registries workflow for publication
+
+- [`4a8b8b4`](https://github.com/openscript-ch/starlight-theme/commit/4a8b8b4f3a54ba054b6f54487ae06cf0d2fab0bc) Thanks [@openscript](https://github.com/openscript)! - Update dependencies
+
 ## 0.1.13
 
 ### Patch Changes
