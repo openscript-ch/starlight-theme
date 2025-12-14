@@ -7,14 +7,15 @@ on:
         required: true
         type: string
 
+permissions:
+  id-token: write
+  contents: read
+  packages: write
+
 jobs:
   build-and-deploy:
     name: Build and deploy packages
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-      contents: read
-      packages: write
 
     steps:
       - name: Checkout repo
@@ -36,16 +37,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Update npm for trusted publishing
-        run: npm install -g npm@latest
-
-      - name: Verify npm version
-        run: npm --version
-
       - name: Publish packages to NPM
-        run: pnpm publish --access public --no-git-checks --provenance
-        working-directory: ./packages/starlight-theme-openscript
+        run: pnpm publish -r --access public --no-git-checks --provenance
         env:
+          NODE_AUTH_TOKEN: ""
           NPM_CONFIG_PROVENANCE: true
 
       - name: Configure node for Github registry
