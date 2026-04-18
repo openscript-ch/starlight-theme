@@ -1,13 +1,5 @@
-.astro
-.changeset
-.github/blocks
-.next
-.vercel
-.vscode-test
-.vscode-test-web
-build
-coverage
 dist
-dist-ssr
-out
+.astro
+**/.git
+**/node_modules
 pnpm-lock.yaml

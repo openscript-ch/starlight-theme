@@ -1,9 +1,9 @@
 ---
-import { Icon } from '@astrojs/starlight/components'
+import { Icon } from "@astrojs/starlight/components";
 
-const { dir, pagination } = Astro.locals.starlightRoute
-const { prev, next } = pagination
-const isRtl = dir === 'rtl'
+const { dir, pagination } = Astro.locals.starlightRoute;
+const { prev, next } = pagination;
+const isRtl = dir === "rtl";
 ---
 
 {
@@ -12,8 +12,8 @@ const isRtl = dir === 'rtl'
       {prev && (
         <a href={prev.href} rel="prev">
           <span class="link-label sl-flex">
-            <Icon name={isRtl ? 'right-arrow' : 'left-arrow'} size="1.25rem" />
-            {Astro.locals.t('page.previousLink')}
+            <Icon name={isRtl ? "right-arrow" : "left-arrow"} size="1.25rem" />
+            {Astro.locals.t("page.previousLink")}
           </span>
           <span class="link-title">{prev.label}</span>
         </a>
@@ -21,8 +21,8 @@ const isRtl = dir === 'rtl'
       {next && (
         <a href={next.href} rel="next">
           <span class="link-label sl-flex">
-            {Astro.locals.t('page.nextLink')}
-            <Icon name={isRtl ? 'left-arrow' : 'right-arrow'} size="1.25rem" />
+            {Astro.locals.t("page.nextLink")}
+            <Icon name={isRtl ? "left-arrow" : "right-arrow"} size="1.25rem" />
           </span>
           <span class="link-title">{next.label}</span>
         </a>
@@ -55,7 +55,7 @@ const isRtl = dir === 'rtl'
         }
       }
 
-      &[rel='next'] {
+      &[rel="next"] {
         align-items: flex-end;
       }
     }

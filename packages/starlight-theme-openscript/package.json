@@ -21,16 +21,16 @@
     "lint": "eslint . --cache --max-warnings=0"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.34.0"
+    "@astrojs/starlight": ">=0.38.0"
   },
   "dependencies": {
     "@types/reveal.js": "^5.2.2",
     "reveal.js": "^6.0.1"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.33.0",
   "publishConfig": {
     "access": "public",
     "provenance": true
